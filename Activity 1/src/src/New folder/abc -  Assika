@@ -1,0 +1,63 @@
+{
+	A:{
+		1:{REL:10, searchResults:RNRUNNRURRRUNUNNNNRR, RELRET:5, RET:20, precision:RELRET/RET, recall:RELRET/REL,}, 
+		2:{REL:10, searchResults:RNRRRNNNRUUUUNRRNRRN, RELRET:5, RET:20}, 
+		3:{REL:10, searchResults:NURRNNRNNRRNUNRURNNR, RELRET:5, RET:20},
+		evaluationResults : {  }
+	}
+	, 
+	B:{
+		1:{REL:15, searchResults:RURRNNRNNNNRRURUNNRN}, 
+		2:{REL:12, searchResults:RNNNNRURUNNRUNRRNNNR}, 
+		3:{REL:13, searchResults:NRNNUNRRNRRNUUNNRNNR}
+	}, 
+	C:{
+		1:{REL:10, searchResults:NNNNNRNNRNNNRNRURURR}, 
+		2:{REL:11, searchResults:NRNNRRNNRRRNRNUNRURR}, 
+		3:{REL:10, searchResults:NRNNNNNRNURRRRRRNRRU}
+	}
+}
+
+
+
+Rel = {d3, d56, d129, d4}
+results = {d123, d84, d56 (r), d6, d8, d9, d511,d129 (r), d187, d25, d38, d48, d250, d113, d3 (r)}
+Precision @ recall = 0.5
+
+
+Recall = 0.5
+Recall = RetRel/ REL
+0.5 = RetRel / 4
+RetRel = 4 * 0.5 = 2
+delimiter = {d123, d84, d56 (r), d6, d8, d9, d511,d129 (r)}
+
+precision = retrel/ret = 2/8 = 0.25
+
+P@(R = 0.5)  -> 0.25
+--------------------
+P@(R = 0.25)  ?
+RetRel = 4 * 0.25 = 1
+delimiter = {d123, d84, d56 (r)}
+precision = retrel/ret  = 1/3 = 0.33
+-----------------------------------
+
+P@(R = 0.75) ?
+RetRel = 4 * 0.75 = 3
+delimiter = new_ret ={d123, d84, d56 (r), d6, d8, d9, d511,d129 (r), d187, d25, d38, d48, d250, d113, d3 (r)}
+precision = retrel/new_ret  = 3/15 = 1/5 = 0.2
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+

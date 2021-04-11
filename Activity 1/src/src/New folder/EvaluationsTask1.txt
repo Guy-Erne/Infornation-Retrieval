@@ -1,0 +1,105 @@
+-----------------------------------------------
+A
+-----------------------------------------------
+	1
+				RET	20
+				P@5	0.4
+				P@R=0.5	0.5
+				RELRET	8
+				Precision	0.4
+				REL	10
+				Recall	0.8
+				averagePrecision	0.54419476
+				searchResults	RNRUNNRURRRUNUNNNNRR
+	2
+				RET	20
+				P@5	0.8
+				P@R=0.5	0.5555556
+				RELRET	9
+				Precision	0.45
+				REL	10
+				Recall	0.9
+				averagePrecision	0.61420566
+				searchResults	RNRRRNNNRUUUUNRRNRRN
+	evaluationResults
+				MAP	0.5248091
+	3
+				RET	20
+				P@5	0.4
+				P@R=0.5	0.45454547
+				RELRET	8
+				Precision	0.4
+				REL	10
+				Recall	0.8
+				averagePrecision	0.4160269
+				searchResults	NURRNNRNNRRNUNRURNNR
+-----------------------------------------------
+B
+-----------------------------------------------
+	1
+				RET	20
+				P@5	0.6
+				P@R=0.5	0.42105263
+				RELRET	8
+				Precision	0.4
+				REL	15
+				Recall	0.53333336
+				averagePrecision	0.59425247
+				searchResults	RURRNNRNNNNRRURUNNRN
+	2
+				RET	20
+				P@5	0.2
+				P@R=0.5	0.375
+				RELRET	7
+				Precision	0.35
+				REL	12
+				Recall	0.5833333
+				averagePrecision	0.44285712
+				searchResults	RNNNNRURUNNRUNRRNNNR
+	evaluationResults
+				MAP	0.47514138
+	3
+				RET	20
+				P@5	0.2
+				P@R=0.5	0.35
+				RELRET	7
+				Precision	0.35
+				REL	13
+				Recall	0.53846157
+				averagePrecision	0.38831443
+				searchResults	NRNNUNRRNRRNUUNNRNNR
+-----------------------------------------------
+C
+-----------------------------------------------
+	1
+				RET	20
+				P@5	0.0
+				P@R=0.5	0.29411766
+				RELRET	7
+				Precision	0.35
+				REL	10
+				Recall	0.7
+				averagePrecision	0.26374742
+				searchResults	NNNNNRNNRNNNRNRURURR
+	2
+				RET	20
+				P@5	0.4
+				P@R=0.5	0.54545456
+				RELRET	10
+				Precision	0.5
+				REL	11
+				Recall	0.90909094
+				averagePrecision	0.4872633
+				searchResults	NRNNRRNNRRRNRNUNRURR
+	evaluationResults
+				MAP	0.3890779
+	3
+				RET	20
+				P@5	0.2
+				P@R=0.5	0.3846154
+				RELRET	10
+				Precision	0.5
+				REL	10
+				Recall	1.0
+				averagePrecision	0.416223
+				searchResults	NRNNNNNRNURRRRRRNRRU
